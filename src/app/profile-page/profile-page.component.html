@@ -1,0 +1,8 @@
+<div class="profile">
+  <a routerLink="/"><img [src]="image.src"></a>
+  <a class="icon" (click)="$event.preventDefault(); $event.stopPropagation(); toggleContent()">i</a>
+
+  <p class="content" *ngIf="showContent" @contentAnimation>
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ac justo dui. Praesent pharetra purus ac rutrum tempus. Etiam in libero in arcu pellentesque facilisis. Nulla convallis leo id dolor tincidunt, sit amet aliquet mi sodales. Suspendisse dapibus felis ante, vitae malesuada elit commodo nec. Integer sit amet ornare lorem. Donec et aliquet libero. Aliquam consequat metus quis maximus aliquam. Aliquam pulvinar ultricies purus quis hendrerit. Nullam non metus at odio iaculis interdum.
+  </p>
+</div>

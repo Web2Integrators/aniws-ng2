@@ -1,0 +1,5 @@
+<div class="router-container"
+ [@routerAnimation]="prepareRouteState(outlet)"
+ (@routerAnimation.start)="scrollToTop()">
+  <router-outlet #outlet="outlet"></router-outlet>
+</div>

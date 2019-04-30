@@ -1,0 +1,64 @@
+html {
+  background:url(https://slides.yearofmoo.com/ng-conf-workshop/ngdemo/bg.jpg) no-repeat center 100px black;
+}
+
+.router-container {
+  position:relative;
+}
+
+html, body {
+  margin: 0;
+}
+
+app-profile-page, app-home-page, app-gallery {
+  display:block;
+  min-height:100vh;
+}
+
+app-home-page {
+  padding:50px;
+}
+
+app-profile-page {
+  position:relative;
+  text-align:center;
+  width:100vw;
+}
+
+app-profile-page .profile,
+app-profile-page .profile img {
+  height:80vh;
+  display:inline-block;
+}
+
+app-profile-page .profile {
+  margin: 10vh auto;
+  position:relative;
+}
+
+app-profile-page .icon {
+  position:absolute;
+  cursor:pointer;
+  background:white;
+  color:black;
+  width:50px;
+  line-height:50px;
+  top:0;
+  font-size:30px;
+  right:0;
+}
+
+app-profile-page .content {
+  position:absolute;
+  top:50px;
+  right:-50px;
+  overflow:hidden;
+  width:400px;
+  background:white;
+  padding:.5em;
+  color:black;
+}
+
+app-profile-page .content .inner {
+  padding:.5em;
+}
